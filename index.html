@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Typed JS -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="luck">
+  <a href="#" class="logo">My Portfolio</a>
+
+  <div class="menu-icon" id="menu-icon">
+    <i class="bx bx-menu"></i>
+  </div>
+
+  <nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- ================= HOME ================= -->
+<section class="home" id="home">
+  <div class="home-content">
+    <h3>Hello, It's Me</h3>
+    <h1>JEROM VINNARASU V </h1>
+    <h3>And I'm a <span id="element"></span></h3>
+
+    <p>
+ I have successfully completed a B.Com in Computer Applications.
+Additionally, I have completed AWS Cloud and DevOps training
+and earned an  AWS Cloud practitioner certification from Amazon.
+    </p>
+
+    <div class="home-sci">
+      <a href="https://github.com/jerom1509/jerom.git" target="_blank"><i class="bx bxl-github"></i></a>
+      <a href="https://www.linkedin.com/in/jerom-vinnarasu-a12488322" target="_blank"><i class="bx bxl-linkedin"></i></a>
+      <a href="https://wa.me/8438660233" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+    </div>
+
+    <a href="Jeromvinnarasu-resume 31.pdf" class="btn-box" download>Download CV</a>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="img/jerom.jpg" alt="profile">
+  </div>
+
+  <div class="about-text">
+    <h2>About <span>Me</span></h2>
+    <h4>AWS & DEVOPS ENGINEER</h4>
+    <p>
+      I am a fresher AWS Cloud and DevOps Engineer with hands-on knowledge of cloud infrastructure 
+and DevOps practices.I have experience working with AWS services, automation, and deployment workflows, 
+and I am eager to build scalable and reliable cloud solutions.
+    </p>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="myskills">
+  <div class="container1" id="skills">
+    <h1 class="heading1">Technical Skills</h1>
+
+    <ul class="skills-list">
+      <li>Aws</li>
+      <li>Devop</li>
+      <li>Linux</li>
+      <li>Python</li>
+      <li>Html</li>
+      <li>Java script</li>
+      <li>Css</li>
+      <li>React.js</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="projects" id="projects">
+  <h1 class="sub-title">My <span>Projects</span></h1>
+
+  <div class="project-grid">
+
+    <!-- PROJECT 1 -->
+    <div class="project-card">
+      <div class="project-image">
+        <img src="img/s3.png" alt="MERN Project">
+        <div class="project-number">01</div>
+      </div>
+
+      <div class="project-content">
+        <h2>website hosting</h2>
+        <p>
+          We create modern and responsive websites for businesses and individuals.
+Our goal is to provide fast, secure, and user-friendly web solutions.
+We focus on clean design and smooth performance across all devices.
+Let us help you build a strong and professional online presence.
+        </p>
+      </div>
+    </div>
+
+    <!-- PROJECT 2 -->
+    <div class="project-card">
+      <div class="project-image">
+        <img src="img/docker.webp" alt="React Project">
+        <div class="project-number">02</div>
+      </div>
+
+      <div class="project-content">
+        <h2>Responsive Portfolio Website</h2>
+        <p>
+          Designed a modern and responsive portfolio website using
+          React and Bootstrap with smooth UI and animations.
+        </p>
+      </div>
+    </div>
+
+    <!-- PROJECT 3 
+    <div class="project-card">
+      <div class="project-image">
+        <img src="Images/teraform.png" alt="CRUD App">
+        <div class="project-number">03</div>
+      </div>
+
+      <div class="project-content">
+        <h2>CRUD Web Application</h2>
+        <p>
+          Developed a CRUD-based web application using MERN stack
+          allowing users to add, edit, delete, and view data.
+        </p>
+      </div>
+    </div> -->
+
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <div class="contact-text">
+    <h2>Contact <span>Me</span></h2>
+    <h4>Let's Build Something Together</h4>
+    <p>Email : jeromvinnarsu@gmail.com</p>
+    <p>Phone : +91 8438660233</p>
+  </div>
+</section>
+
+<footer class="last-text">
+  <p>Developed by jerom vinnarasu © 2025</p>
+</footer>
+
+<script src="main.js"></script>
+<script>
+  new Typed("#element", {
+    strings: [
+      "AWS ENGNIEER",
+      "DEVOPS ENGNIEER",
+      "Frontend DEVELOPER"
+    ],
+    typeSpeed: 60,
+    backSpeed: 60,
+    loop: true
+  });
+</script>
+
+</body>
+</html>
